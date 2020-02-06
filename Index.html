@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="some content">
+    <meta name="keywords" content="HTML, CSS, JavaSkript">
+    <title>NEW FORM</title>
+  </head>
+  <body>
+    <!-- prvt info start -->
+    <form action="https://fom.in.ua/echo" method="POST">
+      <fieldset>
+        <legend>Ваша информация:</legend>
+       <label for="name1">Ваше имя</label>
+         <input type="text" name="name" placeholder="Ваше имя" id="name1" required>
+       <br>
+       <label for="mail1">Адрес электронной почты</label>
+         <input type="email" name="email" placeholder="Электронная почта" id="mail1" required>
+       <br>
+      </fieldset>
+      <label for="comment1">Ваш комментарий</label>
+      <textarea cols="40" rows="5" name="comment" id="comment1">
+      </textarea>
+    <!-- prvt info end -->
+      <p>Предпочтительные социальные сети:</p>
+      <label for="fb1">Facebook</label>
+       <input type="checkbox" name="prefer" value="fb1" id="fb1">
+      <label for="inst1">Instagram</label>
+       <input type="checkbox" name="prefer" value="inst1" id="inst1">
+      <label for="link1">LinkedIn</label>
+       <input type="checkbox" name="prefer" value="link1" id="link1">
+      <label for="twit1">Twitter</label>
+       <input type="checkbox" name="prefer" value="twit1" id="twit1">
+      <p>Пожалуйста оцените наш сервис</p>
+      <label for="1">1</label>
+      <input type="radio" name="service" value="1" id="1">
+      <label for="2">2</label>
+      <input type="radio" name="service" value="2" id="2">
+      <label for="3">3</label>
+      <input type="radio" name="service" value="3" id="3">
+      <label for="4">4</label>
+      <input type="radio" name="service" value="4" id="4">
+      <label for="5">5</label>
+      <input type="radio" name="service" value="5" id="5"> 
+      <button type="submit">
+      Отправить
+      </button>
+      <select name="social networks">
+       <option value="null">Откуда Вы о нас узнали</option>
+       <option value="tw">Twitter</option>
+       <option value="fb">Facebook</option>
+       <option value="LI">LinkedIN</option>
+       <option value="inst">Instagram</option>
+      </select>
+      <label for="forward">Отправить копию на мой e-mail</label>
+      <input type="checkbox" name="forwrd mail" value="yes" id="forward">
+     <button type="reset">
+      Сбросить
+     </button>
+    </form>
+  </body>
+</html>
